@@ -1,0 +1,146 @@
+html {
+  --primary-color-white: #f9f9f9;
+  --primary-color-blue: #1e2857;
+  --primary-color-orange: #fa7055;
+  --color-black: black;
+  --font: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: #1e2857;
+  width: 100%;
+  height: 100%;
+}
+
+/* FONT */
+p {
+  color: var(--primary-color-white);
+  font-family: "Work Sans", sans-serif;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  color: var(--primary-color-white);
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  color: var(--primary-color-white);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  margin: 0rem;
+}
+
+/* Header/menu */
+
+header {
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  font-family: var(--primary-font);
+  background-color: var(--primary-color-blue);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 6%;
+  padding-block: 1rem;
+}
+
+.nav_list {
+  list-style-type: none;
+}
+
+.nav_list,
+li {
+  display: inline-block;
+  padding: 1.2rem 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--primary-color-white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.navbar a:hover {
+  color: #fa7055;
+}
+
+.menu {
+  display: none;
+}
+
+.menu_burger {
+  width: 20px;
+  height: 2px;
+  margin-bottom: 5px;
+  background-color: black;
+}
+
+.icons {
+  width: 7%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media all and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+    display: block;
+  }
+  .icons {
+    display: none;
+  }
+
+  .logo {
+    width: 20%;
+    padding: 3%;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .nav_list,
+  li {
+    display: block;
+    border-bottom: 1px solid black;
+  }
+
+  .nav_list {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .logo {
+    width: 15%;
+  }
+}

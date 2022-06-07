@@ -1,0 +1,223 @@
+/* FORSIDE */
+.grid_forside svg {
+  display: block;
+  width: auto;
+  margin: 0;
+}
+
+.wave {
+  padding-top: 23rem;
+}
+
+/* PORTFOLIO */
+
+.grid_portfolio {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 10rem;
+  gap: 10px;
+  margin-inline: 5rem;
+  margin-inline: 5rem;
+}
+
+.col_portfolio {
+  display: grid;
+  place-content: center;
+  border: lightgray;
+  border-style: solid;
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+
+.txt_box {
+  color: BLACK;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bold;
+}
+
+.col_portfolio img {
+  display: grid;
+  background-size: cover;
+  height: auto;
+  width: 70%;
+  place-content: center;
+  padding-left: 3rem;
+}
+
+.col_portfolio {
+  opacity: 1;
+}
+
+.col_portfolio:hover {
+  opacity: 0.8;
+  border-color: #fa7055;
+}
+
+/* ANIMATION */
+
+.grid_animation {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.col_ani_txt {
+  padding-inline: 10rem;
+  border-radius: 7%;
+  padding-bottom: 8rem;
+  order: -1;
+}
+
+.col_ani_img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+.grid_animation2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col_ani_img2 {
+  width: 80%;
+}
+
+/* WEB */
+.grid_col_img {
+  padding-left: 2rem;
+}
+
+.grid_web {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-inline: 7rem;
+  padding-top: 3rem;
+  order: -1;
+}
+
+.grid_web_txt {
+  padding-inline: 2rem;
+  order: -1;
+}
+
+.h1_web {
+  padding-left: 9rem;
+}
+
+/* UX */
+
+.grid_ux {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.col_ux_txt {
+  padding-inline: 10rem;
+  border-radius: 7%;
+  padding-bottom: 8rem;
+}
+
+.col_ux_img {
+  border-radius: 25px;
+  width: 70%;
+  padding-block: 3rem;
+}
+
+.ux_h1 {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.ux_pitch h2 {
+  text-align: center;
+}
+
+/* .ux_pitch {
+} */
+
+/* INDHOLD */
+
+.grid_indhold {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.indhold_col_video {
+  order: -1;
+  padding-inline: 2rem;
+}
+
+.indhold_col_txt {
+  padding-inline: 2rem;
+}
+
+.intro_indhold {
+  display: grid;
+  text-align: center;
+  padding-inline: 15rem;
+  padding-bottom: 3rem;
+}
+
+.h1_indhold {
+  text-align: center;
+}
+
+/* OM MIG */
+
+.grid_ommig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 5rem;
+  padding-block: 6rem;
+}
+
+.ommig_col_img {
+  width: 70%;
+  padding-inline: 4rem;
+  order: -1;
+}
+
+.ommig_col_txt {
+  padding: 3rem;
+}
+
+.om_mig_cv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6rem;
+  font-family: var(--primary-font);
+}
+
+.border_line {
+  border-style: none;
+  border-radius: 25px;
+  margin-inline: 7rem;
+  background-color: white;
+}
+
+.cv_txt p {
+  color: black;
+}
+
+.ommig_col_txt p {
+  color: black;
+}
+
+.ommig_col_txt h1 {
+  color: black;
+}
+
+.cv_col p {
+  color: black;
+}
+
+.cv_col h2 {
+  color: black;
+}
