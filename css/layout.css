@@ -5,8 +5,19 @@
   margin: 0;
 }
 
+.forside {
+  margin: unset;
+}
+
+.h1_forside {
+  font-size: 4rem;
+  padding-left: 5rem;
+  padding-top: 6rem;
+}
+
 .wave {
-  padding-top: 5.5rem;
+  padding-top: 15rem;
+  display: block;
 }
 
 /* PORTFOLIO */
@@ -55,6 +66,25 @@
   opacity: 0.8;
   border-color: #fa7055;
 }
+
+.pil_link {
+  width: 10%;
+  padding-left: 35rem;
+}
+
+.pil_link {
+  opacity: 1;
+}
+
+.pil_link:hover {
+  opacity: 0.8;
+}
+
+/* .streg {
+  z-index: -1;
+  position: absolute;
+  margin: unset;
+} */
 
 /* ANIMATION */
 
@@ -106,6 +136,19 @@
   padding-left: 9rem;
 }
 
+.pil_link_web {
+  width: 7%;
+  padding-left: 9rem;
+}
+
+.pil_link_web {
+  opacity: 1;
+}
+
+.pil_link_web:hover {
+  opacity: 0.8;
+}
+
 /* UX */
 
 .grid_ux {
@@ -116,13 +159,13 @@
 .col_ux_txt {
   padding-inline: 10rem;
   border-radius: 7%;
-  padding-bottom: 8rem;
+  padding-bottom: 4rem;
 }
 
 .col_ux_img {
-  border-radius: 25px;
-  width: 70%;
+  width: 50%;
   padding-block: 3rem;
+  padding-top: 3rem;
 }
 
 .ux_h1 {
@@ -134,6 +177,33 @@
   text-align: center;
 }
 
+.ux_pitch {
+  display: grid;
+  padding-inline: 10rem;
+  padding-bottom: 4rem;
+}
+
+.pil_link_ux {
+  opacity: 1;
+}
+
+.pil_ux:hover {
+  opacity: 0.8;
+  border-color: #fa7055;
+}
+
+.pil_link_ux {
+  width: 10%;
+  padding-left: 15rem;
+}
+
+.pil_link_ux {
+  opacity: 1;
+}
+
+.pil_link_ux:hover {
+  opacity: 0.8;
+}
 /* .ux_pitch {
 } */
 
