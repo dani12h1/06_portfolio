@@ -1,13 +1,15 @@
 html {
   --primary-color-white: #f9f9f9;
-  --primary-color-blue: #1e2857;
+  --primary-color-blue: #5b84c4;
   --primary-color-orange: #fa7055;
   --color-black: black;
   --font: "Work Sans", sans-serif;
 }
 
+/* #1e2857; */
+
 body {
-  background-color: #1e2857;
+  background-color: #5b84c4;
   width: 100%;
   height: 100%;
   /* overflow-y: hidden; Hide vertical scrollbar
