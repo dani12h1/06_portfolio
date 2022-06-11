@@ -1,9 +1,9 @@
-# .DS_Store
+.DS_Store
 
-# video/
-# *.mp4
-# *.psd
+video/
+*.mp4
+*.psd
 
-# img/
-# *.png
-# *.jp
+img/
+*.png
+*.jp
