@@ -15,8 +15,27 @@
   padding-top: 8rem;
 }
 
+.h1_forside {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .wave {
-  padding-top: 10.5rem;
+  padding-top: 11rem;
   display: block;
 }
 
@@ -208,7 +227,7 @@
 }
 
 .col_ux_img {
-  width: 50%;
+  width: 80%;
   padding-block: 3rem;
   padding-top: 3rem;
 }
@@ -224,7 +243,7 @@
 
 .ux_pitch {
   display: grid;
-  padding-inline: 10rem;
+  padding-right: 7rem;
   padding-bottom: 4rem;
 }
 
