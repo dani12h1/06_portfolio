@@ -28,6 +28,7 @@ p {
 h1 {
   font-family: "Work Sans", sans-serif;
   color: var(--primary-color-white);
+  padding-top: 7rem;
 }
 
 h2 {
@@ -63,7 +64,9 @@ img {
 
 main {
   margin-inline: 12rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
+  background-color: rgba(192, 192, 192, 0.2);
+  color: #e8dddb;
 }
 
 /* Header/menu */

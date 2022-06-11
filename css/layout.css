@@ -132,11 +132,20 @@
   padding-bottom: 4rem;
   order: -1;
   padding-right: 12rem;
+  padding-left: 3rem;
 }
 
 .col_ani_img {
   width: 200%;
   height: auto;
+  padding-right: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.opacity_firkant {
+  background: black;
+  opacity: 0.5;
 }
 
 /* ANIMATION MOBIL */
@@ -162,8 +171,7 @@
 
 /* WEB */
 .grid_col_img {
-  padding: 1rem;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -174,6 +182,12 @@
 
 .grid_web_txt {
   padding-right: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+}
+
+.h1_web {
+  padding-left: 3rem;
 }
 
 /* WEB MOBIL */
@@ -224,6 +238,7 @@
   border-radius: 7%;
   padding-bottom: 4rem;
   padding-right: 12rem;
+  padding-left: 3rem;
 }
 
 .col_ux_img {
@@ -233,18 +248,24 @@
 }
 
 .ux_h1 {
-  text-align: center;
   padding-bottom: 3rem;
+  padding-top: 7rem;
+  padding-left: 3rem;
 }
 
 .ux_pitch h2 {
   text-align: center;
 }
 
+.pitch_h2 {
+  padding-left: 3rem;
+}
+
 .ux_pitch {
   display: grid;
   padding-right: 7rem;
   padding-bottom: 4rem;
+  padding-left: 3rem;
 }
 
 /* UX MOBIL */
@@ -285,23 +306,24 @@
 video {
   width: 70%;
   height: auto;
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
 .indhold_col_txt {
-  padding-inline: 6rem;
+  padding-right: 5rem;
+  padding-left: 3rem;
 }
 
 .intro_indhold {
   display: grid;
-  text-align: center;
-  padding-inline: 20rem;
+  padding-right: 20rem;
   padding-bottom: 3rem;
+  padding-left: 3rem;
 }
 
 .h1_indhold {
-  text-align: center;
+  padding-left: 3rem;
 }
 
 /* INDHOLD MOBIL */
