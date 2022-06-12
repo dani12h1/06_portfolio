@@ -6,6 +6,17 @@ html {
   --font: "Work Sans", sans-serif;
 }
 
+main {
+  /* max-width: 1200px; */
+  margin-inline: 5rem;
+  margin-top: 6rem;
+}
+
+.main_bg {
+  background-color: rgba(192, 192, 192, 0.2);
+  color: #e8dddb;
+}
+
 /* #1e2857; */
 
 .forside {
@@ -60,13 +71,6 @@ a:hover {
 img {
   width: 100%;
   height: auto;
-}
-
-main {
-  margin-inline: 12rem;
-  margin-top: 7rem;
-  background-color: rgba(192, 192, 192, 0.2);
-  color: #e8dddb;
 }
 
 /* Header/menu */
