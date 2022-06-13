@@ -7,14 +7,24 @@ html {
 }
 
 main {
-  /* max-width: 1200px; */
-  margin-inline: 5rem;
+  max-width: 3456px;
+  margin-inline: 8rem;
   margin-top: 6rem;
 }
 
 .main_bg {
   background-color: rgba(192, 192, 192, 0.2);
   color: #e8dddb;
+  margin-inline: 15rem;
+  border-radius: 20px;
+}
+
+@media (max-width: 480px) {
+  .main_bg {
+    background-color: rgba(192, 192, 192, 0.2);
+    color: #e8dddb;
+    margin-inline: 0;
+  }
 }
 
 /* #1e2857; */
@@ -180,9 +190,6 @@ li {
 @media (max-width: 480px) {
   main {
     margin: 0;
-  }
-
-  main {
     margin-top: 2rem;
   }
 }
