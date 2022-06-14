@@ -19,7 +19,7 @@ main {
   border-radius: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   .main_bg {
     background-color: rgba(192, 192, 192, 0.2);
     color: #e8dddb;
@@ -29,9 +29,10 @@ main {
 
 /* #1e2857; */
 
+/* Hide scrollbar forside */
 .forside {
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -42,23 +43,23 @@ body {
 /* FONT */
 p {
   color: var(--primary-color-white);
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--font);
   font-size: 1.2rem;
 }
 
 h1 {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--font);
   color: var(--primary-color-white);
   padding-top: 7rem;
 }
 
 h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--font);
   color: var(--primary-color-white);
 }
 
 h3 {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--font);
   color: var(--primary-color-white);
 }
 
@@ -89,7 +90,6 @@ li {
 /* Header/menu */
 
 header {
-  top: 0;
   width: 100%;
   z-index: 100;
   font-family: "Work Sans", sans-serif;
@@ -103,8 +103,6 @@ header {
 }
 
 .logo {
-  width: 7%;
-  padding-block: 1rem;
   width: 12%;
   height: auto;
 }
@@ -113,8 +111,7 @@ header {
   list-style-type: none;
 }
 
-.nav_list,
-li {
+.nav_list li {
   display: inline-block;
   padding: 1.2rem 1rem;
 }
@@ -141,22 +138,11 @@ li {
   background-color: black;
 }
 
-.icons {
-  width: 7%;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-}
-
-@media all and (max-width: 480px) {
+@media all and (max-width: 800px) {
   .navbar {
     flex-direction: column;
     position: relative;
     display: block;
-  }
-  .icons {
-    display: none;
   }
 
   .logo {
@@ -171,8 +157,7 @@ li {
     right: 20px;
   }
 
-  .nav_list,
-  li {
+  .nav_list li {
     display: block;
     border-bottom: 1px solid black;
   }
@@ -190,7 +175,7 @@ li {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 800px) {
   main {
     margin: 0;
     margin-top: 2rem;
