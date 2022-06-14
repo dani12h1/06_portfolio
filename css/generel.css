@@ -27,17 +27,18 @@ main {
   }
 }
 
-/* #1e2857; */
-
 /* Hide scrollbar forside */
 .forside {
   overflow-y: hidden;
   overflow-x: hidden;
+  margin: unset;
+  margin-top: 0.5rem;
 }
 
 body {
   background-color: #5b84c4;
   padding-bottom: 6rem;
+  padding-top: 3rem;
 }
 
 /* FONT */
@@ -91,7 +92,6 @@ li {
 
 header {
   width: 100%;
-  z-index: 100;
   font-family: "Work Sans", sans-serif;
   background-color: var(--primary-color-blue);
 }
