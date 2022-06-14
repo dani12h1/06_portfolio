@@ -82,6 +82,9 @@ img {
   width: 100%;
   height: auto;
 }
+li {
+  font-family: var(--primary-font);
+}
 
 /* Header/menu */
 
